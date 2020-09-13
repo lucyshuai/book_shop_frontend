@@ -1,0 +1,33 @@
+/*=========== Session Style =========*/
+.session-wrapper {
+  background-image: url("../css/img/pexels-photo-531880.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.session-wrapper .session-inner-wrapper {
+  transform: translate3d(0%, 10%, 0);
+  padding-bottom: 1.875rem;
+  color: red;
+}
+
+.se-body {
+  text-align: center !important;
+  justify-content: center !important;
+  vertical-align: middle;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 30px 28.125px;
+  width: 50rem;
+  margin-bottom: 150px;
+}
